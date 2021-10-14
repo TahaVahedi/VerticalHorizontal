@@ -55,7 +55,7 @@ for src in all_train_images:
     img1 = cv2.resize(cv2.imread(name ,cv2.IMREAD_COLOR), dim, interpolation=cv2.INTER_AREA)
     saveIMG(img1, "horizontal", name1, train="True")
     
-    img2 = cv2.rotate(img1, cv2.cv2.ROTATE_90_CLOCKWISE) 
+    img2 = cv2.rotate(img1, cv2.cv2.ROTATE_90_CLOCKWISE) # you can choose randomly clockwise or unclockwise to balance the dataset
     saveIMG(img2, "vertical", name1, train="True")
     os.remove(name)
     
