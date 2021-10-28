@@ -1,5 +1,5 @@
 # VerticalHorizontal
-my kaggle dataset processing scripts
+my kaggle dataset processing and samples scripts
 
 for more details see my dataset description <https://www.kaggle.com/tahavahedi/verticalhorizontal>
 
